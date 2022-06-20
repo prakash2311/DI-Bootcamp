@@ -1,0 +1,27 @@
+.first{
+  border: 2px solid;
+  margin: 5vw;
+  padding: 4vh;
+}
+
+.second{
+  border: 2px solid;
+  padding: 4vh;
+  margin : 8vw;
+}
+
+.wrap_em_unit{
+  font-size: 15px;
+}
+.em_unit{
+  font-size: 2em;
+  border: 2px solid;
+  padding:5em;
+  margin: 1.6rem
+}
+
+.em_unit_small{
+
+  border: 2px solid;
+  padding: 6rem;
+}
