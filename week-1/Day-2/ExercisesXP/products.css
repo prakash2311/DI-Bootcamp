@@ -1,0 +1,16 @@
+table{
+  width: 100%;
+  border-color: red;
+  border:2px solid;
+}
+
+td{
+  border: 2px solid;
+  border-color:red;
+  position: relative;
+}
+
+.new{
+  font-size: 18px;
+  position: absolute;
+}

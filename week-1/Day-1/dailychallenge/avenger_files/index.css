@@ -1,0 +1,39 @@
+body, html{
+width: 100%
+  margin: 0;
+}
+
+.header {
+  background: black;
+  height: 70px;
+}
+  .fab{
+    color:white;
+    font-size: 38px;
+    float:left;
+    padding: 15px;
+  }
+
+  #navlist {
+    float: right;
+    color: white;
+    font-size: 25px;
+    }
+
+    li {
+    display: inline;
+    padding: 30px;
+  }
+
+  .bg{
+    background-image:url("bg.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.textarea{
+  padding: 23rem 10rem;
+  color: white;
+}

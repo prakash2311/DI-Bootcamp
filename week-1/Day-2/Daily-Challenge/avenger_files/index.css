@@ -1,0 +1,62 @@
+body, html{
+width: 100%
+  margin: 0;
+}
+
+.header {
+  background: black;
+  height: 70px;
+}
+  .fab{
+    color:white;
+    font-size: 38px;
+    float:left;
+    padding: 15px;
+  }
+
+  #navlist {
+    float: right;
+    color: white;
+    font-size: 25px;
+    }
+
+    li {
+    display: inline;
+    padding: 30px;
+  }
+
+  .bg{
+    background-image:url("bg.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.textarea{
+  padding: 23rem 10rem;
+  color: black;
+  font-size: 30px;
+}
+
+@media screen and (min-width:600px) and (max-width:768) {
+  .header{
+    background-color:lightgreen;
+  }
+
+  .textarea{
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (min-width:456px)
+{
+  .header{
+    background-color: yellow;
+  }
+ .textarea{
+   font-size: 35px;
+ }
+
+}
