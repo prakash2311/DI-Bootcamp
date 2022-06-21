@@ -43,6 +43,9 @@ width: 100%
   .header{
     background-color:lightgreen;
   }
+  #navlist{
+    color: lightgreen;
+  }
 
   .textarea{
     font-size: 25px;
@@ -54,6 +57,12 @@ width: 100%
 {
   .header{
     background-color: yellow;
+  }
+  #navlist{
+    color: black;
+  }
+  .fab{
+    color: black;
   }
  .textarea{
    font-size: 35px;
