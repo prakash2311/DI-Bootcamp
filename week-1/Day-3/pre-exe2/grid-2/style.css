@@ -1,0 +1,45 @@
+.sectiongrid{
+  border: 2px solid black;
+     display: grid;
+     grid-template-rows: repeat(4,1fr);
+     grid-template-columns: 1fr 2fr;
+     grid-gap: 2rem 3rem;
+}
+div{
+  text-align: center;
+  font-size: 8em;
+}
+
+.skyblue {
+    background-color: red
+    grid
+}
+
+.bluebox {
+    background-color: blue;
+}
+
+.redbox {
+    background-color: red;
+}
+
+.bluebox {
+    background-color: blue;
+}
+
+.redbox {
+    background-color: red;
+}
+
+.bluebox {
+    background-color: blue;
+}
+
+.black{
+  background-color: yellow;
+  grid-column: 1/span 2
+}
+
+
+
+/*-----------------------------*/

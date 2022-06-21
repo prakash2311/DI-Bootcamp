@@ -39,7 +39,7 @@ width: 100%
   font-size: 30px;
 }
 
-@media screen and (min-width:600px) and (max-width:768) {
+@media all and (min-width:600px) and (max-width:768) {
   .header{
     background-color:lightgreen;
   }
@@ -53,7 +53,7 @@ width: 100%
 
 }
 
-@media screen and (min-width:456px)
+@media all and (max-width:456px)
 {
   .header{
     background-color: yellow;
