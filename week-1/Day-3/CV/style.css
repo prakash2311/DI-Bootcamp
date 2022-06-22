@@ -1,0 +1,117 @@
+.section{
+  border: 2px solid black;
+     display: grid;
+     grid-auto-rows: repeat (2, 1fr)
+     grid-template-columns: repeat(2, 1fr);
+
+}
+
+div{
+  text-align: center;
+  font-size: 1.5em;
+
+}
+/*****************    conatact   *****************/
+.contact{
+  background-color: lightgrey;
+  grid-row: 1/span 4;
+  padding: 10em 2em 0 2em;
+}
+
+img{
+   width:10em;
+   height: 10em;
+   border-radius: 50%
+}
+/*****************   contact end  ****************/
+
+/*****************   profile  ****************/
+.profile{
+  grid-column: 2/span 4;
+}
+ .profile1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+ }
+
+
+.profile2{
+  text-align: left;
+  padding-left: 20px;
+}
+
+/*****************   profile end  ****************/
+
+/*****************   education  ****************/
+
+.education{
+
+  grid-column: 2/span 4;
+}
+
+.education1{
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.edu1{
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.edu12{
+  text-align: left;
+  padding-left: 40px;
+}
+
+/*****************   education end  ****************/
+
+/*****************   skills  ****************/
+
+.skills{
+    grid-column: 2/span 2;
+}
+.skills2{
+  grid-column:4/span 2;
+  padding-top: 62.5px;
+}
+
+.skills1{
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+ul{
+  text-align: left;
+}
+
+/*****************   skills end  ****************/
+
+.pro-expriense{
+    grid-column: 2/span 4;
+}
+
+.pro1{
+  font-size: 30px;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.pro2{
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.pro3{
+  text-align: left;
+  padding-left: 20px;
+}
