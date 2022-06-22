@@ -1,33 +1,17 @@
-.sectiongrid{
-  border: 2px solid;
-  display:grid;
-  grid-template-columns: (8, 1fr);
-  grid-template-rows: (3, 1fr, 2fr, 1fr)
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 
-.div{
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-
-}
-.yellowbox1, .yellowbox2, .yellowbox3, .yellowbox4, .yellowbox5, .yellowbox6,
-.yellowbox7,.yellowbox8, .yellowbox9, .yellowbox10, .yellowbox11, .yellowbox12{
-  background-color: yellow;
-  font-size:2em;
-  border: 2px solid;
-  width: 6em;
-  height: 6em;
+div{
+    background-color: yellow;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
 }
 
-.yellowbox1, .yellowbox2, .yellowbox3,.yellowbox4{
-
-grid-column: 1/span 4;
-}
-.yellowbox5, .yellowbox6, .yellowbox7, .yellowbox8{
-grid-row: 1/span 2;
-}
-.yellowbox9, .yellowbox10 .yellowbox11, .yellowbox12{
-  display: flex;
-  flex-direction: row;
+.center{
+    display: flex;
+    align-items: center;
 }

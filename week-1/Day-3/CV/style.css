@@ -1,8 +1,13 @@
+*{
+ 
+}
+
 .section{
   border: 2px solid black;
      display: grid;
      grid-auto-rows: repeat (2, 1fr)
      grid-template-columns: repeat(2, 1fr);
+     padding: 20px;
 
 }
 
