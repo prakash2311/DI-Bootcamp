@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<script type="text/javascript">
+  let newDog = "chihuahua";
+  console.log(newDog.lenght);
+  console.log(newDog.toUpperCase());
+  console.log(newDog.toLowerCase());
+
+  if (newDog === "chihuahua"){
+    console.log('i love chihuahua, its my favorite dog breed');
+  }else{
+    console.log('i dont care, i prefer cats');
+  }
+
+  //Ex - 3
+
+  let x = prompt("enter number");
+  if (x % 2 === 0){
+    console.log("x is even number");
+  }else {
+    console.log("x is odd number");
+  }
+
+  //Ex - 4
+  let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
+  let moreUser = users.lenght - 2;
+  if(users.lenght == 0){
+    console.log("no one online");
+  }else if (users.lenght == 1){
+    console.log(users[0]+ "is online");
+  }else if (users.lenght == 2){
+    console.log(users[0]+ "and" +users[1]+ "is online");
+  }else if (users.lenght > 2) {
+    console.log(users[0]+ "and" +users[1]+ "more" +moreUser+ "is online");
+  }else{
+    console.log("---");
+  }
+</script>
+
+
+  </body>
+</html>
