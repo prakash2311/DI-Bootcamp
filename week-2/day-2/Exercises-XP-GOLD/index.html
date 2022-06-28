@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <script type="text/javascript">
+
+
+    let language = prompt("which language you speak").toLowerCase();
+    switch (language) {
+      case "french":
+        console.log("Bonjour");
+        break;
+        case "english":
+          console.log("Hello");
+          break;
+          case "hebrew":
+            console.log("shalom");
+            break;
+      default:
+               console.log("---");
+         }
+
+
+    let grade = prompt("enter your grade");
+    if(grade >= 90){
+      console.log("A grade");
+    } else if (grade < 90 || grade > 80) {
+      console.log("B grade");
+    } else if (grade < 80 || grade > 70) {
+      console.log("C grade");
+    } else {
+      console.log("D grade");
+    };
+
+
+    let user = prompt("enter verb");
+    if (user.lenght > 2){
+      console.log(user.pop(ing));
+    }
+  </script>
+
+  </body>
+</html>
