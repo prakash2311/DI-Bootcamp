@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+<script type="text/javascript">
+
+
+let user = prompt("enter")
+  let arrayFrom = user.split(",");
+  let width = 0;
+for (let i = 0; i < arrayFrom.length; i++){
+  if (arrayFrom[i].length > width){
+       width = arrayFrom[i].length
+  }
+}
+  for (let i = -1; i<= arrayFrom.length; i++){
+    if((i == -1) || (i == arrayFrom.length)){
+      console.log("*".repeat(width+3))
+      continue;
+    }
+    console.log("*" +arrayFrom[i]+ +"\n".repeat(arrayFrom[i].length)+ "*");
+  }
+</script>
+
+  </body>
+</html>
