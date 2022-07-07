@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      Show only letters
+    </div>
+    <input type="text" id="input">
+
+    <script type="text/javascript">
+      let inp = document.getElementById('input')
+      inp.addEventListener("keypress", remnum);
+      function remnum(ev){
+        if(!(((ev.keyCode >= 65) && (ev.keyCode <= 90)) || ((ev.keyCode >= 97) && (ev.keyCode <= 122)))){
+          ev.preventDefault()
+        }
+      }
+
+    </script>
+  </body>
+</html>
