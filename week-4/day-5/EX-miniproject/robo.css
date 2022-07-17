@@ -1,0 +1,28 @@
+
+body{
+    background-color: red !important;
+    background-image: url("circuit-pattern.png");
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.nav{
+  background-image: url("circuit-pattern.png");
+}
+.navfont{
+  font-family: 'SEGA LOGO FONT', sans-serif;
+  color: red;
+}
+
+.box{
+    padding: 10px;
+    margin: 15px;
+    background-image:url("card-pattern.png");
+    background-color: lightblue;
+    border-radius: 5%;
+    display: block;
+    text-align: center;
+
+}

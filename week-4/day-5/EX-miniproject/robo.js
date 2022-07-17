@@ -70,3 +70,43 @@ const robots = [
          image:'https://robohash.org/10?200x200'
        }
        ];
+
+       async function getUsers(){
+         let url = "https://jsonplaceholder.typicode.com/users";
+         try{
+           let res = await fetch(url)
+           return await res.json();
+         }catch (error){
+           console.log(error);
+         }
+       }
+
+       async function renderUsers() {
+         let users = await getUsers();
+         let html = " ";
+         users.forEach(user => {
+           let htmlSegment =`<div class="box">
+                             <img src="https://robohash.org/${user.id}?200x200"/>
+                             <h3>${user.name}</h3>
+                             <h4>${user.username}</h4>
+                             <h6>${user.email}</h6>
+                             </div>`;
+              html += htmlSegment;
+         });
+         let container = document.querySelector('.container');
+         container.innerHTML = html;
+       }
+       renderUsers()
+
+//createRobots(robots)
+let filterrobo = document.getElementById("search")
+filterrobo.addEventListener("keyup", (event) => {
+  let input = event.target.value
+  let allrobo = document.getElementById("container").querySelectorAll("div")
+  robots.map(user => {
+    if (!user.name.toUpperCase().includes(input.toUpperCase())) {
+      allrobo[user.id - 1].style.display = "none"
+    }
+    else allrobo[user.id - 1].style.display = "block"
+  })
+})
