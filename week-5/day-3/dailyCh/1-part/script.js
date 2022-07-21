@@ -7,6 +7,7 @@ const makeallcaps = (arr) => {
 const sortwords = (arr) => {
     return arr.sort()
 }
+
 makeallcaps([1, "pear", "banana"])
       .then((arr) => sortwords(arr))
       .then((result) => console.log(result))
